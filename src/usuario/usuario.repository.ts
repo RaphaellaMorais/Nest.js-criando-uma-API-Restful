@@ -27,7 +27,7 @@ export class UsuarioRepository {
     );
 
     if (!possivelUsuario) {
-      throw new Error('Usuário não existe.');
+      throw new Error('Usuário não existe!');
     }
 
     return possivelUsuario;
